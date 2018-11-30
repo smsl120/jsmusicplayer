@@ -26,25 +26,40 @@ class Musics {
     constructor() {
         this.songs = [{
                 id: 1,
-                title: 'Driving Home for Christmas',
-                singer: 'Campsite Dream',
-                songUrl: './songs/song.mp3',
-                imageUrl: './images/songs/c.jpg'
+                title: '不该',
+                singer: 'jay Chou',
+                songUrl: './songs/happy/bg.mp3',
+                imageUrl: './images/songs/jay2.jpg'
             },
             {
                 id: 2,
-                title: '认真的雪',
-                singer: '薛之谦',
-                songUrl: './songs/123.mp3',
-                imageUrl: './images/songs/renzhendexue.jpg'
+                title: '床上的黑洞',
+                singer: 'eason',
+                songUrl: './songs/happy/csdhd.mp3',
+                imageUrl: './images/songs/eason1.jpg'
             },
             {
                 id: 3,
-                title: '演员',
-                singer: '薛之谦',
-                songUrl: './songs/song.mp3',
-                imageUrl: './images/songs/yanyuan.jpg'
-            }
+                title: '放',
+                singer: 'eason',
+                songUrl: './songs/happy/f.mp3',
+                imageUrl: './images/songs/eason2.jpg'
+            },
+            {
+                id: 4,
+                title: '前世情人',
+                singer: 'jay Chou',
+                songUrl: './songs/happy/qsqr.mp3',
+                imageUrl: './images/songs/jay2.jpg'
+            },
+            {
+                id: 5,
+                title: '收心操',
+                singer: 'eason',
+                songUrl: './songs/happy/sxc.mp3',
+                imageUrl: './images/songs/eason2.jpg'
+            },
+
         ]
     }
     //根据索引获取歌曲的方法
