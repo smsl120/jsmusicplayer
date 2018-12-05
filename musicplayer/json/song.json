@@ -16,192 +16,224 @@ var data = {
 		"id": "101",
 		"songUrl": "./songs/Alan Walker - Alone.mp3",
 		"title":"Alan Walker - Alone",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "102",
 		"songUrl": "./songs/Alan Walker - Faded.mp3",
 		"title":"Alan Walker - Faded",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/a.jpg",
 		"language": "en"
 	},{
 		"id": "103",
 		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
 		"title":"Alan Walker - Sing Me to Sleep",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "104",
 		"songUrl": "./songs/Alan Walker - Spectre.mp3",
 		"title":"Alan Walker - Spectre",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/d.jpg",
 		"language": "en"
 	},{
 		"id": "105",
 		"songUrl": "./songs/Alan Walker - The Spectre.mp3",
 		"title":"Alan Walker - The Spectre",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "106",
 		"songUrl": "./songs/Avicii,Martin Garrix,Simon Aldred - Waiting For Love.mp3",
 		"title":"Avicii,Martin Garrix,Simon Aldred - Waiting For Love",
+		"singer": "Avicii",
 		"imageUrl": "./images/songs/e.jpg",
 		"language": "en"
 	},{
 		"id": "107",
 		"songUrl": "./songs/Avicii,Mike Posner - Stay With You.mp3",
 		"title":"Avicii,Mike Posner - Stay With You",
+		"singer": "Avicii",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "108",
 		"songUrl": "./songs/Avicii,Nicky Romero,Noonie Bao - I Could Be The One.mp3",
 		"title":"Avicii,Nicky Romero,Noonie Bao - I Could Be The One",
+		"singer": "Avicii",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "109",
 		"songUrl": "./songs/ColBreakz - 10000.mp3",
 		"title":"ColBreakz - 10000",
+		"singer": "ColBreakz",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "110",
 		"songUrl": "./songs/Coldplay - Viva La Vida.mp3",
 		"title":"Coldplay - Viva La Vida",
+		"singer": "Coldplay",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "111",
 		"songUrl": "./songs/Coldplay - Yellow.mp3",
 		"title":"Coldplay - Yellow",
+		"singer": "Coldplay",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "112",
 		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
 		"title":"Alan Walker - Sing Me to Sleep",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "113",
 		"songUrl": "./songs/Coldplay,SeeB - Hymn for the Weekend (SeeB Remix).mp3",
 		"title":"Coldplay,SeeB - Hymn for the Weekend (SeeB Remix)",
+		"singer": "Coldplay",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "114",
 		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
 		"title":"Alan Walker - Sing Me to Sleep",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "115",
 		"songUrl": "./songs/Conor Maynard,The Vamps - Shape of You.mp3",
 		"title":"Conor Maynard,The Vamps - Shape of You",
+		"singer": "Conor Maynard",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "116",
 		"songUrl": "./songs/Corvo,Borgeous,Julia Michaels - Invincible (Corvo Remix).mp3",
 		"title":"Corvo,Borgeous,Julia Michaels - Invincible (Corvo Remix)",
+		"singer": "Corvo Borgeous",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "117",
 		"songUrl": "./songs/Cosmos,Creature,Vicetone - Bright Side.mp3",
 		"title":"Cosmos,Creature,Vicetone - Bright Side",
+		"singer": "Consmos,Creature",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "118",
 		"songUrl": "./songs/Craig David - Insomnia.mp3",
 		"title":"Craig David - Insomnia",
+		"singer": "Craig David",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "119",
 		"songUrl": "./songs/Crazy Frog - Axel F.mp3",
 		"title":"Crazy Frog - Axel F",
+		"singer": "Crazy Frog",
 		"imageUrl": "./images/songs/a.jpg",
 		"language": "en"
 	},{
 		"id": "120",
 		"songUrl": "./songs/ILLENIUM,Kerli - Sound Of Walking Away.mp3",
 		"title":"ILLENIUM,Kerli - Sound Of Walking Away",
+		"singer": "ILLENIUM",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "121",
 		"songUrl": "./songs/ILLENIUM,Nevve - Fractures.mp3",
 		"title":"ILLENIUM,Nevve - Fractures",
+		"singer": "ILLENIUM",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "122",
 		"songUrl": "./songs/ILLENIUM,Phoebe Ryan - Mine (Illenium Remix).mp3",
 		"title":"ILLENIUM,Phoebe Ryan - Mine (Illenium Remix)",
+		"singer": "ILLENIUM",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "123",
 		"songUrl": "./songs/Lady Gaga - The Cure.mp3",
 		"title":"Lady Gaga - The Cure",
+		"singer": "Lady Gaga",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "124",
 		"songUrl": "./songs/Lady Gaga,Beyoncé - Telephone.mp3",
 		"title":"Lady Gaga,Beyoncé - Telephone",
+		"singer": "Lady Gaga",
 		"imageUrl": "./images/songs/a.jpg",
 		"language": "en"
 	},{
 		"id": "125",
 		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
 		"title":"Alan Walker - Sing Me to Sleep",
+		"singer": "Alan Walker",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "126",
 		"songUrl": "./songs/Lift Me Up - Lena Katina.mp3",
 		"title":"Lift Me Up - Lena Katina",
+		"singer": "ALena Katina",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "127",
 		"songUrl": "./songs/Linkin Park - Crawling.mp3",
 		"title":"Linkin Park - Crawling",
+		"singer": "Linkin Park",
 		"imageUrl": "./images/songs/b.jpg",
 		"language": "en"
 	},{
 		"id": "128",
 		"songUrl": "./songs/Linkin Park - Faint.mp3",
 		"title":"Linkin Park - Faint",
+		"singer": "Linkin Park",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "129",
 		"songUrl": "./songs/Linkin Park - Final Masquerade.mp3",
 		"title":"Linkin Park - Final Masquerade",
+		"singer": "Linkin Park",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "130",
 		"songUrl": "./songs/Linkin Park - Given Up.mp3",
 		"title":"Linkin Park - Given Up",
+		"singer": "Linkin Park",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "131",
 		"songUrl": "./songs/Linkin Park - In The End.mp3",
 		"title":"Linkin Park - In The End",
+		"singer": "Linkin Park",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},{
 		"id": "132",
 		"songUrl": "./songs/Linkin Park - Leave Out All The Rest (Single Version).mp3",
 		"title":"Linkin Park - Leave Out All The Rest (Single Version)",
+		"singer": "Linkin Park",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "en"
 	},
@@ -485,5 +517,180 @@ var data = {
 		"songUrl": "./songs/黑子沛 - 老同学.mp3",
 		"imageUrl": "./images/songs/c.jpg",
 		"language": "cn"
+	},{
+		"id": "43",
+		"title": " Lighthouse ",
+		"singer": " Nicky Romero",
+		"songUrl": "./songs/Nicky Romero - Lighthouse.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "44",
+		"title": " Novell (Original Mix) ",
+		"singer": " Nicky Romero",
+		"songUrl": "./songs/Nicky Romero - Novell (Original Mix).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "45",
+		"title": " Lighthouse ",
+		"singer": " Nicky Romero",
+		"songUrl": "./songs/Nicky Romero - Lighthouse.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "46",
+		"title": " The Moment (Novell) ",
+		"singer": " Nicky Romero",
+		"songUrl": "./songs/Nicky Romero - The Moment (Novell).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "47",
+		"title": " Toulouse ",
+		"singer": " Nicky Romero",
+		"songUrl": "./songs/Nicky Romero - Toulouse.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "48",
+		"title": " Chandelier ",
+		"singer": " Sia ",
+		"songUrl": "./songs/Sia - Chandelier.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "49",
+		"title": " Unstoppable ",
+		"singer": " Sia",
+		"songUrl": "./songs/Sia - Unstoppable.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "50",
+		"title": " Move Your Body (Alan Walker Remix) ",
+		"singer": " Sia,Alan Walker",
+		"songUrl": "./songs/Sia,Alan Walker - Move Your Body (Alan Walker Remix).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "51",
+		"title": " She Wolf (Falling to Pieces) ",
+		"singer": " Sia,David Gueatta",
+		"songUrl": "./songs/Sia,David Gueatta - She Wolf (Falling to Pieces).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "52",
+		"title": " The Greatest ",
+		"singer": " Sia,Kendrick Lamar",
+		"songUrl": "./songs/Sia,Kendrick Lamar - The Greatest.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "53",
+		"title": " Cheap Thrills ",
+		"singer": " Sia,Sean Paul",
+		"songUrl": "./songs/Sia,Sean Paul - Cheap Thrills.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "54",
+		"title": " Anywhere I Go ",
+		"singer": " Vicetone",
+		"songUrl": "./songs/Vicetone - Anywhere I Go.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "55",
+		"title": " Fix You ",
+		"singer": " Vicetone",
+		"songUrl": "./songs/Vicetone - Fix You.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "56",
+		"title": " Green Eyes ",
+		"singer": " Vicetone",
+		"songUrl": "./songs/Vicetone - Green Eyes.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "57",
+		"title": " South Beach (Original Mix) ",
+		"singer": " Vicetone",
+		"songUrl": "./songs/Vicetone - South Beach (Original Mix).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "58",
+		"title": " United We Dance (Club Mix) ",
+		"singer": " Vicetone",
+		"songUrl": "./songs/Vicetone - United We Dance (Club Mix).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "59",
+		"title": " Nevada ",
+		"singer": " Vicetone,Cozi Zuehlsdorff",
+		"songUrl": "./songs/Vicetone,Cozi Zuehlsdorff - Nevada.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "60",
+		"title": "  Way Back ",
+		"singer": " Vicetone,Cozi Zuehlsdorff",
+		"songUrl": "./songs/Vicetone,Cozi Zuehlsdorff - Way Back.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "61",
+		"title": "  New Rules (Vicetone Remix) ",
+		"singer": " Vicetone,Dua Lipa",
+		"songUrl": "./songs/Vicetone,Dua Lipa - New Rules (Vicetone Remix).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "62",
+		"title": " Kaleidoscope ",
+		"singer": " Vicetone,Grace Grundy",
+		"songUrl": "./songs/Vicetone,Grace Grundy - Kaleidoscope.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "63",
+		"title": " Nothing Stopping Me ",
+		"singer": " Vicetone,Kat Nestel",
+		"songUrl": "./songs/Vicetone,Kat Nestel - Nothing Stopping Me.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "64",
+		"title": " The New Kings ",
+		"singer": " Vicetone,Popeska,Luciana",
+		"songUrl": "./songs/Vicetone,Popeska,Luciana - The New Kings.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "65",
+		"title": "  Don't You Run ",
+		"singer": " Vicetone,Raja Kumari",
+		"songUrl": "./songs/Vicetone,Raja Kumari - Don't You Run.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "66",
+		"title": " Omen (Vicetone Remix) ",
+		"singer": " Vicetone,The Prodigy",
+		"songUrl": "./songs/Vicetone,The Prodigy - Omen (Vicetone Remix).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "67",
+		"title": " Starboy (Vicetone Remix) ",
+		"singer": " Vicetone,The Weeknd,Daft Punk",
+		"songUrl": "./songs/Vicetone,The Weeknd,Daft Punk - Starboy (Vicetone Remix).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
 	}]
 }
