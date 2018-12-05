@@ -1,0 +1,489 @@
+var data = {
+	"songs": [{
+		"id": "1",
+		"title": "Lift Me Up ",
+		"singer": " Lena Katina",
+		"songUrl": "./songs/Lift Me Up - Lena Katina.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "2",
+		"songUrl": "./songs/song.mp3",
+		"title":"song",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	}, {
+		"id": "101",
+		"songUrl": "./songs/Alan Walker - Alone.mp3",
+		"title":"Alan Walker - Alone",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "102",
+		"songUrl": "./songs/Alan Walker - Faded.mp3",
+		"title":"Alan Walker - Faded",
+		"imageUrl": "./images/songs/a.jpg",
+		"language": "en"
+	},{
+		"id": "103",
+		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
+		"title":"Alan Walker - Sing Me to Sleep",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "104",
+		"songUrl": "./songs/Alan Walker - Spectre.mp3",
+		"title":"Alan Walker - Spectre",
+		"imageUrl": "./images/songs/d.jpg",
+		"language": "en"
+	},{
+		"id": "105",
+		"songUrl": "./songs/Alan Walker - The Spectre.mp3",
+		"title":"Alan Walker - The Spectre",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "106",
+		"songUrl": "./songs/Avicii,Martin Garrix,Simon Aldred - Waiting For Love.mp3",
+		"title":"Avicii,Martin Garrix,Simon Aldred - Waiting For Love",
+		"imageUrl": "./images/songs/e.jpg",
+		"language": "en"
+	},{
+		"id": "107",
+		"songUrl": "./songs/Avicii,Mike Posner - Stay With You.mp3",
+		"title":"Avicii,Mike Posner - Stay With You",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "108",
+		"songUrl": "./songs/Avicii,Nicky Romero,Noonie Bao - I Could Be The One.mp3",
+		"title":"Avicii,Nicky Romero,Noonie Bao - I Could Be The One",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "109",
+		"songUrl": "./songs/ColBreakz - 10000.mp3",
+		"title":"ColBreakz - 10000",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "110",
+		"songUrl": "./songs/Coldplay - Viva La Vida.mp3",
+		"title":"Coldplay - Viva La Vida",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "111",
+		"songUrl": "./songs/Coldplay - Yellow.mp3",
+		"title":"Coldplay - Yellow",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "112",
+		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
+		"title":"Alan Walker - Sing Me to Sleep",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "113",
+		"songUrl": "./songs/Coldplay,SeeB - Hymn for the Weekend (SeeB Remix).mp3",
+		"title":"Coldplay,SeeB - Hymn for the Weekend (SeeB Remix)",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "114",
+		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
+		"title":"Alan Walker - Sing Me to Sleep",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "115",
+		"songUrl": "./songs/Conor Maynard,The Vamps - Shape of You.mp3",
+		"title":"Conor Maynard,The Vamps - Shape of You",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "116",
+		"songUrl": "./songs/Corvo,Borgeous,Julia Michaels - Invincible (Corvo Remix).mp3",
+		"title":"Corvo,Borgeous,Julia Michaels - Invincible (Corvo Remix)",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "117",
+		"songUrl": "./songs/Cosmos,Creature,Vicetone - Bright Side.mp3",
+		"title":"Cosmos,Creature,Vicetone - Bright Side",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "118",
+		"songUrl": "./songs/Craig David - Insomnia.mp3",
+		"title":"Craig David - Insomnia",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "119",
+		"songUrl": "./songs/Crazy Frog - Axel F.mp3",
+		"title":"Crazy Frog - Axel F",
+		"imageUrl": "./images/songs/a.jpg",
+		"language": "en"
+	},{
+		"id": "120",
+		"songUrl": "./songs/ILLENIUM,Kerli - Sound Of Walking Away.mp3",
+		"title":"ILLENIUM,Kerli - Sound Of Walking Away",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "121",
+		"songUrl": "./songs/ILLENIUM,Nevve - Fractures.mp3",
+		"title":"ILLENIUM,Nevve - Fractures",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "122",
+		"songUrl": "./songs/ILLENIUM,Phoebe Ryan - Mine (Illenium Remix).mp3",
+		"title":"ILLENIUM,Phoebe Ryan - Mine (Illenium Remix)",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "123",
+		"songUrl": "./songs/Lady Gaga - The Cure.mp3",
+		"title":"Lady Gaga - The Cure",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "124",
+		"songUrl": "./songs/Lady Gaga,Beyoncé - Telephone.mp3",
+		"title":"Lady Gaga,Beyoncé - Telephone",
+		"imageUrl": "./images/songs/a.jpg",
+		"language": "en"
+	},{
+		"id": "125",
+		"songUrl": "./songs/Alan Walker - Sing Me to Sleep.mp3",
+		"title":"Alan Walker - Sing Me to Sleep",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "126",
+		"songUrl": "./songs/Lift Me Up - Lena Katina.mp3",
+		"title":"Lift Me Up - Lena Katina",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "127",
+		"songUrl": "./songs/Linkin Park - Crawling.mp3",
+		"title":"Linkin Park - Crawling",
+		"imageUrl": "./images/songs/b.jpg",
+		"language": "en"
+	},{
+		"id": "128",
+		"songUrl": "./songs/Linkin Park - Faint.mp3",
+		"title":"Linkin Park - Faint",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "129",
+		"songUrl": "./songs/Linkin Park - Final Masquerade.mp3",
+		"title":"Linkin Park - Final Masquerade",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "130",
+		"songUrl": "./songs/Linkin Park - Given Up.mp3",
+		"title":"Linkin Park - Given Up",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "131",
+		"songUrl": "./songs/Linkin Park - In The End.mp3",
+		"title":"Linkin Park - In The End",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},{
+		"id": "132",
+		"songUrl": "./songs/Linkin Park - Leave Out All The Rest (Single Version).mp3",
+		"title":"Linkin Park - Leave Out All The Rest (Single Version)",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "en"
+	},
+	{
+		"id": "3",
+		"title": "一个人 ",
+		"singer": " 夏婉安",
+		"songUrl": "./songs/一个人 - 夏婉安.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "4",
+		"title": "你不纯洁 (电音版) ",
+		"singer": " 夏婉安",
+		"songUrl": "./songs/你不纯洁 (电音版) - 夏婉安.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "5",
+		"title": "你曾是少年 (男声版) ",
+		"singer": " 肖洋 _ 王栎鑫 _ 董子健",
+		"songUrl": "./songs/你曾是少年 (男声版) - 肖洋 _ 王栎鑫 _ 董子健.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "6",
+		"title": "傻样 ",
+		"singer": " 赵奕欢",
+		"songUrl": "./songs/傻样 - 赵奕欢.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "7",
+		"title": "再会中港路 ",
+		"singer": " 玖壹壹",
+		"songUrl": "./songs/再会中港路 - 玖壹壹.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "8",
+		"title": "再见再见 ",
+		"singer": " 李易峰 _ 栀子花乐队 _ 敌人乐队",
+		"songUrl": "./songs/再见再见 - 李易峰 _ 栀子花乐队 _ 敌人乐队.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "9",
+		"title": "再见吧 校园 ",
+		"singer": " 李佳霖",
+		"songUrl": "./songs/再见吧 校园 - 李佳霖.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "10",
+		"title": "冷漠 _ 云菲菲 ",
+		"singer": " 这条街",
+		"songUrl": "./songs/冷漠 _ 云菲菲 - 这条街.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "11",
+		"title": "别送我 ",
+		"singer": " 陈鸿宇 _ 苏紫旭 _ 刘昊霖 _ 寒洛",
+		"songUrl": "./songs/别送我 - 陈鸿宇 _ 苏紫旭 _ 刘昊霖 _ 寒洛.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "12",
+		"title": "化作樱花树 (万万没想到特别版) ",
+		"singer": " SNH48",
+		"songUrl": "./songs/化作樱花树 (万万没想到特别版) - SNH48.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "13",
+		"title": "半夏盛伤 ",
+		"singer": " 夏婉安",
+		"songUrl": "./songs/半夏盛伤 - 夏婉安.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "14",
+		"title": "双世宠妃 ",
+		"singer": " 心大俊",
+		"songUrl": "./songs/双世宠妃 - 心大俊.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "15",
+		"title": "和你一样 ",
+		"singer": " 李宇春",
+		"songUrl": "./songs/和你一样 - 李宇春.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "16",
+		"title": "夏婉安 ",
+		"singer": " 一个人",
+		"songUrl": "./songs/夏婉安 - 一个人.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "17",
+		"title": "夏婉安 ",
+		"singer": " 你不纯洁 (电音版)",
+		"songUrl": "./songs/夏婉安 - 你不纯洁 (电音版).mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "18",
+		"title": "夏婉安 ",
+		"singer": " 半夏盛伤",
+		"songUrl": "./songs/夏婉安 - 半夏盛伤.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "19",
+		"title": "太多 ",
+		"singer": " 王雅洁",
+		"songUrl": "./songs/太多 - 王雅洁.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "20",
+		"title": "左耳 ",
+		"singer": " 赵薇",
+		"songUrl": "./songs/左耳 - 赵薇.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "21",
+		"title": "年少有你 ",
+		"singer": " 李易峰",
+		"songUrl": "./songs/年少有你 - 李易峰.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "22",
+		"title": "年轻的战场 ",
+		"singer": " 张杰",
+		"songUrl": "./songs/年轻的战场 - 张杰.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "23",
+		"title": "开学第一课 ",
+		"singer": " TFBOYS",
+		"songUrl": "./songs/开学第一课 - TFBOYS.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "24",
+		"title": "往前一步 ",
+		"singer": " 孟非",
+		"songUrl": "./songs/往前一步 - 孟非.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "25",
+		"title": "心大俊 ",
+		"singer": " 双世宠妃",
+		"songUrl": "./songs/心大俊 - 双世宠妃.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "26",
+		"title": "思念的距离 ",
+		"singer": " 何炅",
+		"songUrl": "./songs/思念的距离 - 何炅.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "27",
+		"title": "朱哲琴 ",
+		"singer": " 一个真实的故事",
+		"songUrl": "./songs/朱哲琴 - 一个真实的故事.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "28",
+		"title": "李宇春 ",
+		"singer": " 和你一样",
+		"songUrl": "./songs/李宇春 - 和你一样.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "29",
+		"title": "李宇春 ",
+		"singer": " 木兰",
+		"songUrl": "./songs/李宇春 - 木兰.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "30",
+		"title": "演员 ",
+		"singer": " 薛之谦",
+		"songUrl": "./songs/演员 - 薛之谦.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "31",
+		"title": "睡在我上铺的兄弟 ",
+		"singer": " 老狼",
+		"songUrl": "./songs/睡在我上铺的兄弟 - 老狼.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "32",
+		"title": "群星 ",
+		"singer": " 那年，我们十七八岁",
+		"songUrl": "./songs/群星 - 那年，我们十七八岁.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "33",
+		"title": "老同学 ",
+		"singer": " 黑子沛",
+		"songUrl": "./songs/老同学 - 黑子沛.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "34",
+		"title": "老街 ",
+		"singer": " 李荣浩",
+		"songUrl": "./songs/老街 - 李荣浩.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "35",
+		"title": "落叶归根 ",
+		"singer": " 王力宏",
+		"songUrl": "./songs/落叶归根 - 王力宏.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "36",
+		"title": "行走的力量 ",
+		"singer": " 李荣浩",
+		"songUrl": "./songs/行走的力量 - 李荣浩.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "37",
+		"title": "说好只是朋友 ",
+		"singer": " 王嘉艺",
+		"songUrl": "./songs/说好只是朋友 - 王嘉艺.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "38",
+		"title": "谁是谁的谁 ",
+		"singer": " 艾莉莎",
+		"songUrl": "./songs/谁是谁的谁 - 艾莉莎.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "39",
+		"title": "这个夏天 ",
+		"singer": " 威仔 _ 夏婉安",
+		"songUrl": "./songs/这个夏天 - 威仔 _ 夏婉安.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "40",
+		"title": "那些年 (Live) ",
+		"singer": " 胡夏",
+		"songUrl": "./songs/那些年 (Live) - 胡夏.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "41",
+		"title": "那年，我们十七八岁 ",
+		"singer": " 群星",
+		"songUrl": "./songs/那年，我们十七八岁 - 群星.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}, {
+		"id": "42",
+		"title": "黑子沛 ",
+		"singer": " 老同学",
+		"songUrl": "./songs/黑子沛 - 老同学.mp3",
+		"imageUrl": "./images/songs/c.jpg",
+		"language": "cn"
+	}]
+}

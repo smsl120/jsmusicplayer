@@ -24,48 +24,27 @@ class Player {
 class Musics {
     //歌曲
     constructor() {
-        this.songs = [{
-                id: 1,
-                title: '不该',
-                singer: 'jay Chou',
-                songUrl: './songs/happy/bg.mp3',
-                imageUrl: './images/songs/jay2.jpg'
-            },
-            {
-                id: 2,
-                title: '床上的黑洞',
-                singer: 'eason',
-                songUrl: './songs/happy/csdhd.mp3',
-                imageUrl: './images/songs/eason1.jpg'
-            },
-            {
-                id: 3,
-                title: '放',
-                singer: 'eason',
-                songUrl: './songs/happy/f.mp3',
-                imageUrl: './images/songs/eason2.jpg'
-            },
-            {
-                id: 4,
-                title: '前世情人',
-                singer: 'jay Chou',
-                songUrl: './songs/happy/qsqr.mp3',
-                imageUrl: './images/songs/jay2.jpg'
-            },
-            {
-                id: 5,
-                title: '收心操',
-                singer: 'eason',
-                songUrl: './songs/happy/sxc.mp3',
-                imageUrl: './images/songs/eason2.jpg'
-            },
-
-        ]
+//  	var that = this;
+    	this.songs = data.songs;// 获取当前播放的歌曲
+        this.songList = data.songs;// 缓存所有的歌曲
+    	// 同步访问本地JSON文件
+//  	$.ajaxSettings.async = false;
+//      $.getJSON("json/song.json",function(data){
+//      	console.log(data);
+//      	that.songs = data.songs;// 获取当前播放的歌曲
+//      	that.songList = data.songs;// 缓存所有的歌曲
+//      });
+        
+        this.favor= [];// 定义喜欢的歌曲
     }
     //根据索引获取歌曲的方法
     getSongByNum(index) {
         return this.songs[index];
     }
+    setSongs(songs){
+    	this.songs = songs;
+    }
+    
 }
 
 //真正的构建播放器的类
@@ -82,7 +61,8 @@ class PlayerCreator {
         this.loop_mode = 0; // 1 2
         // 下方歌曲列表容器
         this.song_list = $('.music__list_content');
-
+        // 歌曲喜好选择
+		this.show_list = $('#showModel');
         this.render_doms = { //切换歌曲时需要渲染的dom组
             title: $('.music__info--title'),
             singer: $('.music__info--singer'),
@@ -114,22 +94,48 @@ class PlayerCreator {
         this.bindEventListener();
     }
     //生成播放列表
-    renderSongList() {
-        let _str = '';
-        this.musics.songs.forEach((song, i) => {
-            _str += `<li class="music__list__item">${song.title}</li>`
-        });
+    renderSongList(type) {
+    	// 音乐列表初始化
+    	this.song_list.html("");
+    	let _str = '';
+    	let songs = null;
+    	if(!type || type=="all"){
+    		songs = this.musics.songList;    		
+    	}else if(type == "cn"){
+    		songs = this.musics.songList.filter(function(item){
+    			return item.language == "cn";
+    		});
+    	}else if(type == "en"){
+    		songs = this.musics.songList.filter(function(item){
+    			return item.language == "en";
+    		});
+    	}else if(type == "pre10"){
+    		// 对歌曲的播放的次数进行排序，播放次数越多越靠前
+    		songs = this.musics.favor.sort(function(song1,song2){
+    			return song2.level  - song1.level;
+    		});
+    		songs = songs.slice(0,10);
+    	}
+    	// 如果当前没有播放的歌曲则返回
+    	if(!songs){
+    		return;
+    	}
+    	this.musics.setSongs(songs);
+    	songs.forEach((song, i) => {
+    		    song.title && (_str += `<li class="music__list__item">${song.title}</li>`);
+    	});
         this.song_list.html(_str);
     }
 
     //根据歌曲去渲染视图
     renderSongStyle() {
+    	let song = this.musics.getSongByNum(this.song_index);
         let {
             title,
             singer,
             songUrl,
             imageUrl
-        } = this.musics.getSongByNum(this.song_index);
+        } = song ;
         this.audio.src = songUrl;
         this.render_doms.title.html(title);
         this.render_doms.singer.html(singer);
@@ -138,6 +144,25 @@ class PlayerCreator {
 
         //切换列表中的item的类名 play
         this.song_list.find('.music__list__item').eq(this.song_index).addClass('play').siblings().removeClass('play');
+        
+        // 修改喜欢歌曲的缓存
+        let favorList = this.musics.favor;
+        let favorSong = favorList.find(function(item){
+        	 return item.title == song.title;
+        });
+        if(!favorSong){
+        	song.level = 1;
+        	favorList.push(song);
+        }else{
+        	favorList = favorList.filter(function(item){
+        		return item.title != song.title;
+        	});
+        	let level = song.level;
+        	level++;
+        	favorSong["level"] = level;
+			favorList.push(song);        	
+        }
+        this.musics.favor = favorList;
     }
     //绑定各种事件
     bindEventListener() {
@@ -161,14 +186,19 @@ class PlayerCreator {
         this.$ban = new Btns('.control__volume--icon', {
             click: this.banNotes.bind(this)
         })
+        // 根据喜好显示
+        this.$show = new Btns('.player-control__btn--show',{
+        	click: this.showShowMode.bind(this)
+        });
         //列表点击
         this.song_list.on('click', 'li', (e) => {
             let index = $(e.target).index();
             this.changeSong(index);
         })
-
+        this.show_list.on('click','li',(e) => {
+        	this.changeSongList($(e.target).text());
+        });
         //音量控制 audio标签音量 vlouem 属性控制0-1
-
         new Progress('.control__volume--progress', {
             min: 0,
             max: 1,
@@ -214,6 +244,9 @@ class PlayerCreator {
             //播放完，换歌后，重新播放
             this.audio.play();
         }
+        $(document).on('click',function(event){
+        	$(event.target).is(".icon-show") || $("#showModel").hide();
+        })
 
     }
 
@@ -302,6 +335,22 @@ class PlayerCreator {
             this.audio.muted = true;
             _o_i.removeClass('icon-volume').addClass('icon-muted');
         }
+    }
+    showShowMode(event){
+    	$("#showModel li").each(function(){
+    		let text = $(event.target).text();
+    		if($(this).text() == text){
+    			$(this).hide();
+    		}else{
+    			$(this).show();
+    		}
+    	});
+    	$("#showModel").toggle();
+    }
+    changeSongList(text){
+    	$(".icon-show").text(text);
+    	$("#showModel").hide();
+    	this.renderSongList(text);
     }
 }
 
